@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homescreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/s" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Autism  App"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg"
+            android:onClick="alpha"
+            android:text="Learn Alphbet"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg"
+            android:onClick="num"
+            android:text="Learn Numbers"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg"
+            android:onClick="anim"
+            android:text="Learn Animals"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg"
+            android:onClick="word"
+            android:text="Learn Color And Sentenses"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg"
+            android:onClick="sen"
+            android:text="Quiz"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="feed"
+            android:text="Give Us FeedBack"
+            app:backgroundTint="@android:color/holo_orange_dark" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
